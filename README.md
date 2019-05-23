@@ -14,14 +14,14 @@
 
 * for each循环
 
-## 0001
+## [0001](0001.java)
 Two Sum
 
 题目如下：
 ![](http://ww1.sinaimg.cn/large/006XKThBgy1g3b11gsb6yj31kw0ssdk7.jpg)
 * 官网描述此方法为"Brute Force",的确是蛮力。
 
-* 关于数组的定义并没有想象中的那么熟练
+* 关于数组的定义并没有想象中的那么熟练。
 > int ans[] = new int[2];
 
-* HashMap的方法继续学习
+* HashMap的方法继续学习。
