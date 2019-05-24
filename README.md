@@ -25,3 +25,24 @@ Two Sum
 > int ans[] = new int[2];
 
 * HashMap的方法继续学习。
+
+## [0020](0020.java)
+Valid Parentheses
+
+题目如下：
+![](https://i.loli.net/2019/05/24/5ce770ccdbd0937877.jpg)
+* Stack<Character>
+> Character 和 char的关系，还有Integer和int的关系。前者是后者的包装(wrap)类，提供很多方法。
+
+> The Character class wraps a value of the primitive type char in an object. An object of type Character contains a single field whose > type is char.
+
+> In addition, this class provides several methods for determining a character's category (lowercase letter, digit, etc.) and for conve> rting characters from uppercase to lowercase and vice versa.--by Java API10
+
+* s.toCharArray()
+> 在看别人写的代码发现for-each循环里直接使用这种方法来遍历s，而不是再重新定义一个数组。
+```java 
+   for(char c : s.toCharArray){...}
+```
+* Hashmap的使用
+> 将三种括号进行匹配，遍历时遇到左括号入栈的是右括号，遇到右括号则与栈顶元素比较。
+> 此种写法提交到
