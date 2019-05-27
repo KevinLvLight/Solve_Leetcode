@@ -12,8 +12,7 @@ class Solution {
                 if(st1.empty()) {
                     return 0;
                 }
-		int b = st1.pop();
-				
+		int b = st1.pop();		
                 //运算
 		if(s.equals("+")){
 			st1.push(a + b);
