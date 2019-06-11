@@ -65,4 +65,11 @@ Implement Queue using Stacks
 Backapace String Compare
 
 * 题目假设字符串里面只有小写字母或者#，所以写了一个判别方法，看别人代码时发现有点多余。
-* 关于各种情况的判别考虑不够简洁，看到一个优秀代码，上传在[0844v2](0844v2.java)。 
+* 关于各种情况的判别考虑不够简洁，看到一个优秀代码，上传在[0844v2](0844v2.java)。
+
+## [0682](0682.java)
+Baseball Game
+
+* 最开始定义的Stack是Character，后发现Integer较好。
+* Integer.valueOf(op)  关于char int string类型转化仍需练习。
+ 
